@@ -86,7 +86,7 @@ function App() {
 
     <>
     
-    <h1 style={{ color: "#000", display: "grid", placeItems: "center"}}>Checkout my profile @ www.aynerd.com</h1>
+    <h1 style={{ color: "#000", display: "grid", placeItems: "center"}}>I developed this with Threejs, checkout my profile @ www.aynerd.com</h1>
 
     <Suspense fallback={null}>
      <Canvas shadows>
