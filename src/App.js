@@ -83,11 +83,20 @@ function CarShow() {
 
 function App() {
   return (
+
+    <>
+    
+    <h1 style={{ color: "#000", display: "grid", placeItems: "center"}}>Checkout my profile @ www.aynerd.com</h1>
+
     <Suspense fallback={null}>
-    <Canvas shadows>
-      <CarShow />
-    </Canvas>
-  </Suspense>
+     <Canvas shadows>
+       <CarShow />
+     </Canvas>
+   </Suspense>
+
+
+    </>
+  
   );
 }
 
